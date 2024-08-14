@@ -1,0 +1,70 @@
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+header {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+header .inner {
+    width: 1180px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+header .inner h1 {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+}
+header .inner h1 a {
+    font: bold 24px / 1 "arial";
+    color: #444;
+}
+header .inner #gnb {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .inner #gnb li {
+    padding-left: 20px;
+}
+header .inner #gnb li a {
+    display: block;
+    font: bold 15px / 1 "arial";
+    color: #555;
+    padding: 20px 40px;
+    transition: all 0.5s;
+}
+header .inner .util {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .inner .util li {
+    padding-left: 20px;
+}
+header .inner .util li a {
+    display: block;
+    font: 12px / 1 "arial";
+    color: #999;
+    padding: 0px 10px;
+}
